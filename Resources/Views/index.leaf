@@ -13,6 +13,18 @@
     <input type="text" name="title" placeholder="ToDo Item"/>
     <button>Add ToDo</button>
   </form>
+
+    <h1>Comments Section</h1>
+
+  <!-- Form to submit a new comment -->
+  <form action="/comments" method="POST">
+    <input type="number" name="restaurantID" placeholder="Restaurant ID" required />
+    <textarea name="content" placeholder="Your comment" required></textarea>
+    <input type="number" name="score" min="1" max="5" required />
+    <input type="datetime-local" name="time" required />
+    <button type="submit">Submit Comment</button>
+  </form>
+  
 <h1>Footer Info Goes Here</h1>
   
 </body>
