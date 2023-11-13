@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>#(title)</title>
+</head>
+
+<body>
+  <h1>ECE564 Sample Page</h1>
+  <h1>ToDo List</h1>
+  <form action="/todos" method="POST">
+    <input type="text" name="id" value=52572321-4131-44b3-aa3b-7cfbffcb93e3 />
+    <input type="text" name="title" placeholder="ToDo Item"/>
+    <button>Add ToDo</button>
+  </form>
+<h1>Footer Info Goes Here</h1>
+  
+</body>
+</html>
